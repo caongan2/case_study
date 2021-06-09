@@ -12,7 +12,7 @@
 </head>
 <body>
 <?php
-include_once "App/view/navbar.php";
+include_once "view/navbar.php";
 ?>
 
 <!-- Optional JavaScript -->
