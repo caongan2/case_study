@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6478c1af-96a9-4d8f-ad0b-04a7742fbc61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/uploads/Pháo Đài Số ( Tái Bản ) _ Tiki Trading _ Tiki.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/uploads/Screen Shot 2021-06-10 at 09.26.06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/uploads/Tiểu-thuyết-ngôn-tình-hay-nhất.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/uploads/bieu-tuong-that-truyen.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/uploads/gbN8YT_simg_de2fe0_500x500_maxb.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/uploads/nguoi-me-cam-sung-nguyen-thi.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/uploads/toa-an-linh-hon--bia-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/uploads/yeu-anh-hon-ca-tu-than.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/light-bootstrap-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sidebar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/chartist.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/light-bootstrap-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/BookDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/BookDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rounter.php" beforeDir="false" afterPath="$PROJECT_DIR$/rounter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,9 +57,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js/img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +85,8 @@
       <workItem from="1623291452656" duration="1987000" />
       <workItem from="1623293486620" duration="2412000" />
       <workItem from="1623296408793" duration="828000" />
-      <workItem from="1623299267980" duration="8267000" />
+      <workItem from="1623299267980" duration="10022000" />
+      <workItem from="1623316702441" duration="4623000" />
     </task>
     <servers />
   </component>
