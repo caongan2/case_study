@@ -24,20 +24,32 @@ class BookDB
         $stmt->bindParam(5, $book->image);
         return $stmt->execute();
     }
-    public function  getAll()
+
+    public function getAll()
     {
 
         $books = [];
-        $sql ="SELECT * FROM `Book`";
+        $sql = "SELECT * FROM `Book`";
         $stml = $this->connection->prepare($sql);
         $stml->execute();
-        $result=$stml->fetchall();
-        foreach ($result as $row){
+        $result = $stml->fetchall();
+        foreach ($result as $row) {
             $book = new Book($row['nameBook'], $row['category'], $row['publisher'], $row['status'], $row['image']);
             $book->setId($row['ID']);
-            $books[]=$book;
+            $books[] = $book;
         }
         return $books;
     }
+
+    public function delete($id)
+    {
+        $sql = "DELETE FROM `Book` WHERE `ID` = ?";
+        $stmt = $this->connection->prepare($sql);
+        $stmt->bindParam(1, $id);
+        return $stmt->execute();
+    }
+
+
+
 }
 
