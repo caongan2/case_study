@@ -5,7 +5,7 @@
         </div>
         <div class="card-body">
             <div class="col-12">
-                <a class="btn btn-success mb-2" href="index.php?page=product&action=add">Thêm mới</a>
+                <a class="btn btn-success mb-2" href="../index.php?page=book&action=add">Thêm mới</a>
                 <table class="table table-bordered">
                     <thead>
                     <tr>

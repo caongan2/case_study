@@ -1,3 +1,9 @@
+<?php
+
+use Controller\BookController;
+
+require "vendor/autoload.php";
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,6 +20,23 @@
 <?php
 include_once "view/navbar.php";
 ?>
+<?php
+$controller = new BookController();
+$page = $_REQUEST['page'] ?? null;
+    $action = $_REQUEST['action'] ?? null;
+    switch ($page) {
+        case'book':
+            switch ($action) {
+                case'add':
+                    $controller->add();
+                    break;
+                default:
+                    $controller->getAll();
+                    break;
+            }
+            break;
+    }
+    ?>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -35,7 +35,7 @@
                         <?php endif; ?>
                     </div>
                     <button type="submit" class="btn btn-primary">Lưu</button>
-                    <a type="button" href="index.php" class="btn btn-secondary">Quay lại</a>
+                    <a type="button" href="../index.php" class="btn btn-secondary">Quay lại</a>
                 </form>
             </div>
         </div>
