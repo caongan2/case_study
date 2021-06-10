@@ -19,7 +19,7 @@ class BookController
     }
     public  function  getAll()
     {
-        $book = $this->bookDB->getAll();
+        $books = $this->bookDB->getAll();
         include "view/list.php";
 
     }

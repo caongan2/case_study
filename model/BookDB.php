@@ -26,13 +26,15 @@ class BookDB
     }
     public function  getAll()
     {
+
+        $books = [];
         $sql ="SELECT * FROM `Book`";
         $stml = $this->connection->prepare($sql);
         $stml->execute();
         $result=$stml->fetchall();
         foreach ($result as $row){
-            $book = new Book($row);
-            $book->setId($row['id']);
+            $book = new Book($row['nameBook'], $row['category'], $row['publisher'], $row['status'], $row['image']);
+            $book->setId($row['ID']);
             $books[]=$book;
         }
         return $books;
