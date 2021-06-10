@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6478c1af-96a9-4d8f-ad0b-04a7742fbc61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/light-bootstrap-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sidebar-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap-notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/chartist.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/light-bootstrap-dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +69,7 @@
       <workItem from="1623296408793" duration="828000" />
       <workItem from="1623299267980" duration="10022000" />
       <workItem from="1623316702441" duration="4623000" />
+      <workItem from="1623333612882" duration="1006000" />
     </task>
     <servers />
   </component>
