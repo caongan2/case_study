@@ -5,7 +5,7 @@
         </div>
         <div class="card-body">
             <div class="col-12">
-                <form method="post">
+                <form method="post" enctype="multipart/form-data">
                     <div class="mb-3">
                         <label class="form-label">Name Book</label>
                         <input type="text" name="name" class="form-control">

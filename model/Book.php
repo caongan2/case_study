@@ -33,4 +33,13 @@ class Book
     {
         $this->id = $id;
     }
+
+    /**
+     * @param string $status
+     */
+    public function setStatus(string $status): void
+    {
+        $this->status = $status;
+    }
+
 }

@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6478c1af-96a9-4d8f-ad0b-04a7742fbc61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rounter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/Pháo Đài Số ( Tái Bản ) _ Tiki Trading _ Tiki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/Screen Shot 2021-06-10 at 09.26.06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/Tiểu-thuyết-ngôn-tình-hay-nhất.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/bieu-tuong-that-truyen.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/gbN8YT_simg_de2fe0_500x500_maxb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/nguoi-me-cam-sung-nguyen-thi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/toa-an-linh-hon--bia-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/uploads/yeu-anh-hon-ca-tu-than.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/BookDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/BookDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rounter.php" beforeDir="false" afterPath="$PROJECT_DIR$/rounter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
@@ -65,7 +72,7 @@
       <workItem from="1623291452656" duration="1987000" />
       <workItem from="1623293486620" duration="2412000" />
       <workItem from="1623296408793" duration="828000" />
-      <workItem from="1623299267980" duration="7791000" />
+      <workItem from="1623299267980" duration="8267000" />
     </task>
     <servers />
   </component>

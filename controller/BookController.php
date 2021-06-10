@@ -14,19 +14,19 @@ class BookController
 
     public function __construct()
     {
-        $connection = new DBConnection("mysql:host=localhost;dbname=manager_book", "root", "Khai@123");
+        $connection = new DBConnection("mysql:host=localhost;dbname=manager_book", "root", "123456@Abc");
         $this->bookDB = new BookDB($connection->connect());
     }
-
-    public function getAll()
+    public  function  getAll()
     {
         $books = $this->bookDB->getAll();
-        include_once "view/list.php";
+        include "view/list.php";
     }
 
     public function add()
     {
-        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+        if ($_SERVER['REQUEST_METHOD'] == 'GET')
+        {
             include "view/add.php";
         } else {
             $errors = [];
@@ -44,15 +44,23 @@ class BookController
                 $publisher = $_POST['publisher'];
                 $status = $_POST['status'];
                 $target_dir = "view/uploads/";
-                $target_file = $target_dir . basename($_FILES['fileUpload']['name']);
+                $target_file = $target_dir.basename($_FILES['fileUpload']['name']);
                 move_uploaded_file($_FILES['fileUpload']['tmp_name'], $target_file);
                 $image = $_FILES['fileUpload']['name'];
                 $book = new Book($name, $category, $publisher, $status, $image);
                 $this->bookDB->create($book);
-                header("Location: index.php");
+                header("Location: index.php?page=book&action=list");
             } else {
                 include "view/add.php";
             }
         }
     }
+
+    public function delete()
+    {
+        $id = $_REQUEST['id'];
+        $this->bookDB->delete($id);
+        header("Location: index.php?page=book&action=list");
+    }
+
 }

@@ -26,8 +26,8 @@
                             <td><?php echo $book->category ?></td>
                             <td><?php echo $book->publisher ?></td>
                             <td><?php echo $book->status ?></td>
-<!--                            <td style="height: 100px ; width: 150px" ><img src="view/uploads/--><?php //echo $book->image ?><!--" style="width: 100%; height: 100%" alt="error"></td>-->
-<!--                            <td><a href=index.php?page=delete&id=--><?php //echo $book->id ?><!--" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</a></td>-->
+                            <td style="height: 100px ; width: 150px" ><img src="view/uploads/<?php echo $book->image ?>" style="width: 100%; height: 100%" alt="error"></td>
+                            <td><a href="./index.php?page=book&action=delete&id=<?php echo $book->id ?>" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</a></td>
                         </tr>
                     <?php endforeach; ?>
                     </tbody>
