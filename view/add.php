@@ -14,28 +14,31 @@
                         <?php endif; ?>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label"> Status</label>
-                        <input type="email" class="form-control" name="email">
+                        <label class="form-label">Category</label>
+                        <input type="text" class="form-control" name="category">
                         <?php if (isset($errors['category'])): ?>
                             <p class="text-danger"><?php echo $errors['category'] ?></p>
                         <?php endif; ?>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Image</label>
-                        <input type="text" class="form-control" name="address">
-                        <?php if (isset($errors['image'])): ?>
-                            <p class="text-danger"><?php echo $errors['image'] ?></p>
-                        <?php endif; ?>
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Publishing company</label>
-                        <input type="text" class="form-control" name="address">
+                        <label class="form-label">Publisher</label>
+                        <input type="text" class="form-control" name="publisher">
                         <?php if (isset($errors['publisher'])): ?>
                             <p class="text-danger"><?php echo $errors['publisher'] ?></p>
                         <?php endif; ?>
+                    </div>     <div class="mb-3">
+                        <label class="form-label">Status</label>
+                        <input type="text" class="form-control" name="status">
+                        <?php if (isset($errors['status'])): ?>
+                            <p class="text-danger"><?php echo $errors['status'] ?></p>
+                        <?php endif; ?>
+                    </div>
+                    <div>
+                        <label for="" class="form-label"></label>
+                        <input type="file" name="fileUpload" id="fileUpload">
                     </div>
                     <button type="submit" class="btn btn-primary">Lưu</button>
-                    <a type="button" href="../index.php" class="btn btn-secondary">Quay lại</a>
+                    <a type="button" href="index.php" class="btn btn-secondary">Quay lại</a>
                 </form>
             </div>
         </div>

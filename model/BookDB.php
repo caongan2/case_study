@@ -15,7 +15,7 @@ class BookDB
 
     public function create(object $book)
     {
-        $sql = "INSERT INTO Book(nameBook, category, publisher, status, image) VALUES (?, ?, ?, ?, ?)";
+        $sql = "INSERT INTO Book (Bookname, category, publisher, status, image) VALUES (?, ?, ?, ?, ?)";
         $stmt = $this->connection->prepare($sql);
         $stmt->bindParam(1, $book->name);
         $stmt->bindParam(2, $book->category);
@@ -24,15 +24,17 @@ class BookDB
         $stmt->bindParam(5, $book->image);
         return $stmt->execute();
     }
-    public function  getAll()
+    public function  getAll(): array
     {
+
+        $books = [];
         $sql ="SELECT * FROM `Book`";
         $stml = $this->connection->prepare($sql);
         $stml->execute();
         $result=$stml->fetchall();
         foreach ($result as $row){
-            $book = new Book($row);
-            $book->setId($row['id']);
+            $book = new Book($row['Bookname'], $row['category'], $row['publisher'], $row['status'], $row['image']);
+            $book->setId($row['ID']);
             $books[]=$book;
         }
         return $books;

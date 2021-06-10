@@ -17,17 +17,16 @@ class BookController
         $connection = new DBConnection("mysql:host=localhost;dbname=manager_book", "root", "Khai@123");
         $this->bookDB = new BookDB($connection->connect());
     }
-    public  function  getAll()
-    {
-        $book = $this->bookDB->getAll();
-        include "view/list.php";
 
+    public function getAll()
+    {
+        $books = $this->bookDB->getAll();
+        include_once "view/list.php";
     }
 
     public function add()
     {
-        if ($_SERVER['REQUEST_METHOD'] == 'GET')
-        {
+        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             include "view/add.php";
         } else {
             $errors = [];
@@ -45,7 +44,7 @@ class BookController
                 $publisher = $_POST['publisher'];
                 $status = $_POST['status'];
                 $target_dir = "view/uploads/";
-                $target_file = $target_dir.basename($_FILES['fileUpload']['name']);
+                $target_file = $target_dir . basename($_FILES['fileUpload']['name']);
                 move_uploaded_file($_FILES['fileUpload']['tmp_name'], $target_file);
                 $image = $_FILES['fileUpload']['name'];
                 $book = new Book($name, $category, $publisher, $status, $image);
