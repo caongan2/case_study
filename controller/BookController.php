@@ -21,7 +21,6 @@ class BookController
     {
         $books = $this->bookDB->getAll();
         include "view/list.php";
-
     }
 
     public function add()
@@ -50,10 +49,18 @@ class BookController
                 $image = $_FILES['fileUpload']['name'];
                 $book = new Book($name, $category, $publisher, $status, $image);
                 $this->bookDB->create($book);
-                header("Location: index.php");
+                header("Location: index.php?page=book&action=list");
             } else {
                 include "view/add.php";
             }
         }
     }
+
+    public function delete()
+    {
+        $id = $_REQUEST['id'];
+        $this->bookDB->delete($id);
+        header("Location: index.php?page=book&action=list");
+    }
+
 }
