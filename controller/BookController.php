@@ -14,7 +14,7 @@ class BookController
 
     public function __construct()
     {
-        $connection = new DBConnection("mysql:host=localhost;dbname=manager_book", "root", "123456@Abc");
+        $connection = new DBConnection("mysql:host=localhost;dbname=manager_book", "root", "Khai@123");
         $this->bookDB = new BookDB($connection->connect());
     }
     public  function  getAll()

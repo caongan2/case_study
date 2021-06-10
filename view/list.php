@@ -5,7 +5,7 @@
         </div>
         <div class="card-body">
             <div class="col-12">
-                <a class="btn btn-success mb-2" href="../index.php?page=book&action=add">Thêm mới</a>
+                <a class="btn btn-success mb-2" href="index.php?page=book&action=add">Thêm mới</a>
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -18,17 +18,7 @@
                     </tr>
                     </thead>
                     <tbody>
-<!--                    --><?php //foreach (): ?>
-<!--                        <tr>-->
-<!--                            <td>--><?php //echo ?><!--</td>-->
-<!--                            <td>--><?php //echo ?><!--</td>-->
-<!--                            <td>--><?php //echo  ?><!--</td>-->
-<!--                            <td>--><?php //echo  ?><!--</td>-->
-<!--                            <td>--><?php //echo  ?><!--</td>-->
-<!--                            <td></td>-->
-<!--                        </tr>-->
-<!--                    --><?php //endforeach; ?>
-                    </tbody>
+
                 </table>
             </div>
         </div>
