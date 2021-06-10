@@ -17,12 +17,18 @@ class BookController
         $connection = new DBConnection("mysql:host=localhost;dbname=manager_book", "root", "123456@Abc");
         $this->bookDB = new BookDB($connection->connect());
     }
+    public  function  getAll()
+    {
+        $book = $this->bookDB->getAll();
+        include "view/list.php";
+
+    }
 
     public function add()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'GET')
         {
-            include "";
+            include "view/add.php";
         } else {
             $errors = [];
             $fields = ['name', 'category', 'publisher', 'status'];
@@ -46,7 +52,7 @@ class BookController
                 $this->bookDB->create($book);
                 header("Location: index.php");
             } else {
-                include "";
+                include "view/add.php";
             }
         }
     }

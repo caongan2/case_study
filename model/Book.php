@@ -11,6 +11,7 @@ class Book
     public string $publisher;
     public string $status;
     public mixed $image;
+    public int $id;
 
     public function __construct(string $name,
                                 string $category,
@@ -23,5 +24,13 @@ class Book
         $this->publisher = $publisher;
         $this->status = $status;
         $this->image = $image;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId(int $id): void
+    {
+        $this->id = $id;
     }
 }

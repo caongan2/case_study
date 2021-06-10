@@ -24,4 +24,18 @@ class BookDB
         $stmt->bindParam(5, $book->image);
         return $stmt->execute();
     }
+    public function  getAll()
+    {
+        $sql ="SELECT * FROM `Book`";
+        $stml = $this->connection->prepare($sql);
+        $stml->execute();
+        $result=$stml->fetchall();
+        foreach ($result as $row){
+            $book = new Book($row);
+            $book->setId($row['id']);
+            $books[]=$book;
+        }
+        return $books;
+    }
 }
+
