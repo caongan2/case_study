@@ -4,6 +4,8 @@
 namespace Model;
 
 
+use PDO;
+
 class BookDB
 {
     public $connection;
@@ -47,6 +49,15 @@ class BookDB
         $stmt = $this->connection->prepare($sql);
         $stmt->bindParam(1, $id);
         return $stmt->execute();
+    }
+    function  findByEmailPassword($request){
+        $sql = "SELECT `idStudent`,`nameStudent`,`Age`,`numberPhone`,`email` FROM `Students` WHERE email=? AND password=?";
+        $stml = $this->connection->prepare($sql);
+        $stml->bindParam(1,$request['email']);
+        $stml->binparam(2,$request['password']);
+        $stml->execute();
+        return $stml->fetch(PDO::FETCH_ASSOC);
+
     }
 
 

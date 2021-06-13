@@ -1,5 +1,8 @@
 <?php
+
+use Controller\AuthController;
 use Controller\BookController;
+
 require "vendor/autoload.php";
 $controller = new BookController();
 $page = $_REQUEST['page'] ?? null;
@@ -41,6 +44,10 @@ switch ($page) {
                 $controller->getMemoirs();
                 break;
         }
+        break;
+    case 'logout':
+        $authController = new AuthController() ;
+        $authController->logout();
         break;
 }
 ?>
