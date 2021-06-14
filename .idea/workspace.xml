@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6478c1af-96a9-4d8f-ad0b-04a7742fbc61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/jquery/countdowntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/jquery/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/jquery/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/jquery/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/jquery/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mid/Auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Auth_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/case_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/case_study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/light-bootstrap-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/light-bootstrap-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/BookDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/BookDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rounter.php" beforeDir="false" afterPath="$PROJECT_DIR$/rounter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -69,7 +84,11 @@
       <workItem from="1623296408793" duration="828000" />
       <workItem from="1623299267980" duration="10022000" />
       <workItem from="1623316702441" duration="4623000" />
-      <workItem from="1623333612882" duration="1006000" />
+      <workItem from="1623333612882" duration="2375000" />
+      <workItem from="1623373679707" duration="2865000" />
+      <workItem from="1623399160800" duration="6102000" />
+      <workItem from="1623405326820" duration="232000" />
+      <workItem from="1623599697824" duration="1935000" />
     </task>
     <servers />
   </component>

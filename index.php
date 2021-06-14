@@ -19,11 +19,7 @@
     <link href="css/demo.css" rel="stylesheet" />
 </head>
 <body>
-<?php
-include_once "view/navbar.php";
 
-include "rounter.php";
-?>
 <div class="wrapper">
     <div class="sidebar" data-image="img/sidebar-5.jpg">
         <!--
@@ -31,72 +27,24 @@ include "rounter.php";
 
     Tip 2: you can also add an image using data-image tag
 -->
-        <div class="sidebar-wrapper">
+        <div class="sidebar-wrapper" >
             <div class="logo">
-                <a href="javascript:;" class="simple-text">
+                <a href="index.php" class="simple-text">
                     ThiendiaBook
                 </a>
+                <?php
+                include_once "view/sidebar.php";
+                ?>
             </div>
-            <ul class="nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="no-icon">Quản lý sách</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="index.php?page=book&action=add">Thêm mới</a>
-                        <a class="dropdown-item" href="index.php?page=book&action=list">Danh sách</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="no-icon">Thể loại </span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="index.php?page=book&action=add">Kinh dị</a>
-                        <a class="dropdown-item" href="index.php?page=book&action=list">Tâm lý</a>
-                        <a class="dropdown-item" href="index.php?page=book&action=list">Trinh thám</a>
-                        <a class="dropdown-item" href="index.php?page=book&action=list">truyện cười </a>
-                    </div>
-                </li>
-
-                <li class="nav-item active active-pro">
-                    <a class="nav-link active" href="javascript:;">
-                        <i class="nc-icon nc-alien-33"></i>
-                        <p>Upgrade plan</p>
-                    </a>
-                </li>
-            </ul>
         </div>
     </div>
     <div class="main-panel">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg " color-on-scroll="500">
-            <div class="container-fluid">
-                <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar burger-lines"></span>
-                    <span class="navbar-toggler-bar burger-lines"></span>
-                    <span class="navbar-toggler-bar burger-lines"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                    <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="dropdown">
-                                <i class="nc-icon nc-palette"></i>
-                                <span class="d-lg-none">Dashboard</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
+        <?php
+        include_once "view/navbar.php";
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="">
-                                <span class="no-icon">Log out</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        include "rounter.php";
+        ?>
         <!-- End Navbar -->
         <div class="content">
             <div class="container-fluid">
@@ -126,8 +74,3 @@ include "rounter.php";
 </body>
 </html>
 <style>
-    .wrapper{
-     background-image: url("img/img.png");
-        size: auto;
-    }
-</style>
